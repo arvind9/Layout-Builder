@@ -6,8 +6,7 @@
   text-align: left;
   padding: 25px;
   margin-left: 20px;
- 
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .rn {
   width: 30vw;
@@ -16,17 +15,21 @@
   text-align: left;
   padding: 25px;
   margin-right: 20px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .content {
   width: 30vw;
   height: 60vh;
   background-color: #f1f5f9;
- 
-  
+  text-align: left;
+  padding: 25px;
+  line-height: 2;
 }
 .bg-header {
   display: flex;
+}
+.ul-items {
+  list-style-type: none;
 }
 .ad {
   width: 10vw;

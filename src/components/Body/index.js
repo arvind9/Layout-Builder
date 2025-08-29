@@ -15,7 +15,7 @@ const Body = () => (
             {showLeftNavbar ? (
               <div className="ln">
                 <h1>Left Navbar Menu</h1>
-                <ul>
+                <ul className="ul-items">
                   <li>Item 1</li>
                   <li>Item 2</li>
                   <li>Item 3</li>
@@ -27,7 +27,11 @@ const Body = () => (
           {showContent ? (
             <div className="content">
               <h1>Content</h1>
-              <p>Lorem ipsum dolor sit</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua Ut
+                enim ad minim veniam.
+              </p>
             </div>
           ) : null}
           {showRightNavbar ? (
